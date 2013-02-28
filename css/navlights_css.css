@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* CSS Document */
+html, body, div, section {
+  padding:0px;
+	margin:0px;
+}
+
+/* style the elements however you see fit.*/
+/*nav_active is the class placed on the element to indicate it is the section on screen*/
+/*You'll want to have the .sections large enough to fill more than half than half the screen for the plugin make sense and work properly*/
+.nav_active {
+	background-color:#3CF;
+}
+nav {
+	width:100%;
+	background-color:#333;
+	color:#fff;
+	position:fixed;
+	top:0px;
+	left:0px;
+	text-align:left;
+	padding:5px;
+	font-size:20px;
+	box-shadow:0px 1px 3px #000;
+}
+nav span {
+	display:inline-block;
+	width:20px;
+	height:20px;
+	border-radius:50%;
+	background-color:#999;
+	margin:0px 3px;
+	box-shadow:inset 1px 1px 2px #666;
+	transition: all 1s;
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
+}
+.section {
+	padding:10%;
+	border:1px solid #000
+}
