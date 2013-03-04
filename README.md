@@ -8,9 +8,11 @@ This plugin works by detecting when an element with the class of ``` .section  `
 
 HTML Structure
 ==============
+In it's most basic form, your HTML should look something like this.
 ``` html
 <div id="navlight1"></div> <div id="navlight2"></div> <div id="navlight3"></div>
 <div class=".section"> some content </div>
 <div class=".section"> some more content </div>
 <div class=".section"> some other content </div>
 ```
+Feel free to style elements however you see fit, just be sure the ``` .section ``` is fills up most of the screen otherwise plugin will not work properly.
