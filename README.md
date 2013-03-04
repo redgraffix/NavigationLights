@@ -4,9 +4,12 @@ Indicator to show which section you have scrolled to when viewing a long single 
 
 Usage
 =====
-Attach the ```navlights_js.js``` to your HTML document. The sections of the webpage you'd like to check if they have scrolled into the viewport should be labeled with a class of ``` .section  ```. The indicators signifying each ``` .section  ``` should be labeled with an Id of `` #navlight1 ```, `` #navlight2 ```, and so on depending on the number of sections you have.
+Just attach the ```navlights_js.js``` to your HTML document. 
 
-This plugin works by detecting when an element with the class of ``` .section  ``` has scrolled into the browser window, then adds a class of ``` .nav_active ```  to the div with an Id of ``` #navlight* ``` that is associated that ``` .section  ``` .  The first ``` .section  ``` will be associated ``` #navlight1 ```, the second ``` .section  ``` will be associated ``` #navlight2 ```, etc.
+The sections of the webpage you'd like to check if they have scrolled into the viewport should be labeled with a class of ``` .section  ```. The indicators signifying each ``` .section  ``` should be labeled with an Id of ``` #navlight1 ```, ``` #navlight2 ```, and so on depending on the number of sections you have.
+
+This plugin works by detecting when an element with the class of ``` .section  ``` has scrolled into the browser window, then adds a class of ``` .nav_active ```  to the div ``` #navlight* ``` that is associated that ``` .section  ``` .  The first ``` .section  ``` will be associated ``` #navlight1 ```, the second ``` .section  ``` will be associated ``` #navlight2 ```, etc.
+
 
 HTML Structure
 ==============
