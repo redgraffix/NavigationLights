@@ -1,6 +1,7 @@
 NavigationLights
 ================
 Indicator to show which section you have scrolled to when viewing a long single page website.
+Currently only works on vertical style sites.
 
 Usage
 =====
